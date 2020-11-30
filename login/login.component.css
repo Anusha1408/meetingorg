@@ -1,0 +1,94 @@
+@charset "ISO-8859-1";
+
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+  border-radius:30px;
+}
+.form h1
+{
+	color: white;
+}
+.form label
+{
+	color:white;
+}
+
+.form input[type="text"],
+.form input[type="password"]
+{
+	border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 10px 10px;
+    width: 250px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s
+}
+
+.form input[type="text"]:focus,
+.form input[type="password"]:focus 
+{
+    width: 200px;
+    border-color: #2ecc71;
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background: #191919;
+  max-width: 380px;
+  margin: 0 auto 100px;
+  border-radius:30px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+/*.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}*/
+
+
+.form input[type="submit"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer
+}
+
+.form input[type="submit"]:hover {
+    background: #2ecc71
+}
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.form .message a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+.form .register-form {
+  display: none;
+}
